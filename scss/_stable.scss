@@ -1,0 +1,39 @@
+// stable.scss
+body{
+  font-family: $font-main;
+}
+header{
+  z-index: 2;
+}
+main{
+  z-index: 1;
+}
+.wrapper{
+  overflow: hidden;
+}
+.container{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  @media (max-width: 2732px){
+    max-width: 2052px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  @media (max-width: 1400px){
+    max-width: 1280px;
+    padding: 0px 20px 0px 20px;
+  }
+  @media (max-width: 375px){
+    max-width: 345px;
+    padding: 0;
+  }
+}
+
+.btn {
+  background: linear-gradient(220deg, #7C46F8, #746FFA,#6D90FB);
+}
+.disable{
+  overflow: hidden;
+  display: none;
+}

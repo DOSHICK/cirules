@@ -1,0 +1,25 @@
+// reset.scss
+html, body, header, main, footer, div, p, nav, ul, li, a, img, input, label, button{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+}
+input{
+  outline: none;
+}
